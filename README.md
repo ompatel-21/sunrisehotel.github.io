@@ -1,1 +1,1 @@
-# sunshinehotel.github.io
+# sunrisehotel.github.io
