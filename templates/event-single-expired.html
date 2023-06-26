@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.thimpress.com/hotelwp/event-single-expired.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:10:32 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HOTEL HTML TEMPLATE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="static/images/icons/favicon.png">
+
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="single single-event">
+<div id="preloading">
+<div class="loading-icon">
+<div class="sk-folding-cube">
+<div class="sk-cube1 sk-cube"></div>
+<div class="sk-cube2 sk-cube"></div>
+<div class="sk-cube4 sk-cube"></div>
+<div class="sk-cube3 sk-cube"></div>
+</div>
+</div>
+</div>
+
+<div id="wrapper-container" class="content-pusher">
+<div class="overlay-close-menu"></div>
+
+<!--<header id="masthead" class="header-default affix-top sticky-header ">-->
+ {% include 'header.html' %}
+<!--<div class="row">-->
+<!--<div class="header-menu col-sm-12 tm-table">-->
+<!--<div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">-->
+<!--<div class="icon-wrap">-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="width-logo sm-logo table-cell text-center">-->
+<!--<a href="/index" class="no-sticky-logo" title="Hotel HTML Template">-->
+<!--<img class="logo" src="static/images/logo1.png" alt="">-->
+<!--<img class="mobile-logo" src="static/images/logo1-sticky.png" alt="">-->
+<!--</a>-->
+<!--<a href="/index" class="sticky-logo">-->
+<!--<img src="static/images/logo1-sticky.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="width-navigation navigation table-cell">-->
+<!--<div class="top-toolbar clearfix">-->
+<!--<div class="toolbar-info pull-left col-sm-4">-->
+<!--<i class="ion-ios-telephone"></i> <span class="label">Need help? Call us now:</span>-->
+<!--<a class="value" href="tel:+88123456789"> (+88) 12 345 6789</a>-->
+<!--</div>-->
+<!--<div class="toolbar-right pull-right col-sm-8">-->
+<!--<div class="weather">-->
+<!--Today: <img src="static/images/icons/weather.png" alt="">-->
+<!--<span class="temperature">28°C</span>-->
+<!--</div>-->
+<!--<ul class="top-menu">-->
+<!--<li class="menu-item"><a href="/shop">Our Story</a></li>-->
+<!--<li class="menu-item"><a href="/blog">News & Awards</a></li>-->
+<!--<li class="menu-item"><a href="/gallery">Gallery</a></li>-->
+<!--</ul>-->
+<!--<div class="language">-->
+<!--<div class="dropdown">-->
+<!--<a href="#" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false">-->
+<!--<i class="flag-el"></i>English<span class="fa fa-caret-down"></span>-->
+<!--</a>-->
+<!--<ul class="dropdown-language">-->
+<!--<li><a href="#"><i class="flag-it"></i>Italiano</a></li>-->
+<!--<li><a href="#"><i class="flag-de"></i>Deutsch</a></li>-->
+<!--<li><a href="#"><i class="flag-fr"></i>Français</a></li>-->
+<!--<li><a href="#"><i class="flag-es"></i>Español</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!-- </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<ul class="nav main-menu">-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/index">Home</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/index">Home 01</a></li>-->
+<!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+<!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+<!--<li class="menu-item"><a href="/index-4">Home 04</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/rooms">Rooms</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+<!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+<!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/blog">Blog</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+<!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+<!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/events">Events</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/events-2columns">Events Gird View</a></li>-->
+<!--<li class="menu-item"><a href="/events">Events List view</a></li>-->
+<!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+<!--<li class="menu-item"><a href="/event-single-expired">Event Single Expired</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="#">Features</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+<!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+<!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+<!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+<!--</ul>-->
+<!--<div class="header-right">-->
+<!--<a href="/rooms" class="btn-book">BOOK YOUR STAY</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</header>-->
+
+ {% include 'mobile.html' %}
+<!--<nav class="visible-xs mobile-menu-container mobile-effect" itemscope itemtype="http://schema.org/SiteNavigationElement">-->
+<!--<div class="inner-off-canvas">-->
+<!--<div class="menu-mobile-effect navbar-toggle">Close <i class="fa fa-times"></i></div>-->
+<!--<ul class="nav main-menu">-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/">Home</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/index">Home 01</a></li>-->
+<!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+<!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+<!--<li class="menu-item"><a href="/index-4">Home 04</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/rooms">Rooms</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+<!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+<!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/blog">Blog</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+<!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+<!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/events">Events</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/events-2columns">Events Grid View</a></li>-->
+<!--<li class="menu-item"><a href="/events">Events List View</a></li>-->
+<!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+<!--<li class="menu-item"><a href="/event-single-expired">Event Single Expired</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="#">Features</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+<!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+<!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+<!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</nav>-->
+
+<div id="main-content">
+<div class="page-title">
+<div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+<div class="content container">
+<h1 class="heading_primary">Event Single</h1>
+<ul class="breadcrumbs">
+<li class="item"><a href="/">Home</a></li>
+<li class="item"><span class="separator"></span></li>
+<li class="item"><a href="/events">Event</a></li>
+<li class="item"><span class="separator"></span></li>
+<li class="item active">Event Single</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="site-content container">
+<div class="row">
+<main class="site-main col-sm-12 col-md-9 flex-first">
+<div class="event-single-content expired">
+<div class="event clearfix">
+<div class="wrapper">
+<div class="thumbnail">
+<img src="static/images/gallery/music-party.jpg" alt="">
+<div class="thim-countdown notice">
+<span>This event has expired</span>
+</div>
+</div>
+<div class="content">
+<h2 class="title">Music Party</h2>
+<div class="detail clearfix">
+<div class="description">
+<h4>EVENT DESCRIPTION</h4>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged.</p>
+<h4>EVENT CONTENT</h4>
+<ul class="event-list-content">
+<li>Over 37 lectures and 55.5 hours of content!</li>
+<li>LIVE PROJECT End to End Software Testing Training Included.</li>
+<li>Learn Software Testing and Automation basics from a professional trainer
+from your own desk.
+</li>
+<li>Information packed practical training starting from basics to advanced
+testing techniques.
+</li>
+<li>Best suitable for beginners to advanced level users and who learn faster
+when demonstrated.
+</li>
+<li>Course content designed by considering current software testing
+technology and the job market.
+</li>
+<li>Practical assignments at the end of every session.</li>
+<li>Practical learning experience with live project work and examples.</li>
+</ul>
+</div>
+<div class="info">
+<ul>
+<li class="title"><i class="fa fa-clock-o"></i>Start Time</li>
+<li class="item">8:00 am</li>
+<li class="item">Sunday, July 15, 2017</li>
+</ul>
+<ul>
+<li class="title"><i class="fa fa-clock-o"></i>Finish Time</li>
+<li class="item">5:00 pm</li>
+<li class="item">Sunday, July 01, 2018</li>
+</ul>
+<ul>
+<li class="title"><i class="fa fa fa-map-marker"></i>Address</li>
+<li class="item">Paris, French</li>
+</ul>
+</div>
+</div>
+<div class="social-share">
+<ul>
+<li><a class="link facebook" title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u=#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-facebook"></i></a></li>
+<li><a class="link twitter" title="Twitter" href="https://twitter.com/intent/tweet?url=#&amp;text=TheTitleBlog" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-twitter"></i></a></li>
+<li><a class="link pinterest" title="Pinterest" href="https://pinterest.com/pin/create/button/?url=#" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="ion-social-pinterest"></i></a></li>
+<li><a class="link google" title="Google" href="https://plus.google.com/share?url=#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-googleplus"></i></a>
+<li><a class="link linkedin" title="LinkedIn" href="https://www.linkedin.com/shareArticle/?url=#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="comments-list" id="comments-list">
+<h3 class="total-comments">comments</h3>
+<ul>
+<li class="comment clearfix">
+<div class="comment-img">
+<img src="static/images/blog/author1.jpg" alt="">
+</div>
+ <div class="comment-content">
+<h6>Anna Shubina</h6>
+<span>March 03, 2015</span>
+<a class="reply" href="#post-comment" title="Reply">Reply</a>
+<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Morbi suspendisse a tortor velim pellentesque uter justo magna gravida. Pellentesque accumsan, ex in tempus ullamcorper terminal.</p>
+</div>
+<ul class="children">
+<li class="comment clearfix">
+<div class="comment-img">
+<img src="static/images/blog/author2.jpg" alt="">
+</div>
+<div class="comment-content">
+<h6>Anna Shubina</h6>
+<span>March 03, 2015</span>
+<a class="reply" href="#post-comment" title="Reply">Reply</a>
+<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Morbi suspendisse a tortor velim pellentesque uter justo magna gravida. Pellentesque accumsan, ex in tempus ullamcorper terminal.</p>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment clearfix">
+<div class="comment-img">
+<img src="static/images/blog/author1.jpg" alt="">
+</div>
+<div class="comment-content">
+<h6>Ann Smith</h6>
+<span>March 03, 2018</span>
+<a class="reply" href="#post-comment" title="Reply">Reply</a>
+<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Morbi suspendisse a tortor velim pellentesque uter justo magna gravida. Pellentesque accumsan, ex in tempus ullamcorper terminal.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="post-comment" id="post-comment">
+<h3 class="reply-comment">leave a comment</h3>
+<form action="#" method="post" id="comment-form">
+<p>Your email address will not be published. Required fields are marked *</p>
+<div class="row">
+<div class="col-sm-6"><input placeholder="Name *" id="name" name="name" type="text" value="" size="30" required></div>
+<div class="col-sm-6"><input placeholder="Email *" id="email" name="email" type="email" value="" size="30" required></div>
+</div>
+<textarea placeholder="Message *" name="message" id="message" cols="45" rows="8" required></textarea>
+<input name="submit" type="submit" id="submit" class="submit" value="Submit">
+ </form>
+</div>
+</div>
+</div>
+</main>
+<aside id="secondary" class="widget-area col-sm-12 col-md-3 sticky-sidebar">
+<div class="wd wd-book-event">
+<h3 class="wd-title">Buy Ticket</h3>
+<form role="search" method="POST" action="#" class="book_event">
+<ul>
+<li>
+<div class="label">Total Slots</div>
+<div class="value">500</div>
+</li>
+<li>
+<div class="label">Booked Slots</div>
+<div class="value">400</div>
+</li>
+<li class="event-cost">
+<div class="label">Cost</div>
+<div class="value">$10/Slot</div>
+</li>
+<li>
+<div class="label">Quantity</div>
+<div class="value"><input type="number" name="qty" value="1" min="1" /></div></li>
+</ul>
+<button type="submit" class="submit disabled" disabled>Expired</button>
+</form>
+</div>
+</aside>
+</div>
+</div>
+</div>
+
+<!--<footer id="colophon" class="site-footer">-->
+ {% include 'footer.html' %}
+<!--<div class="footer-top">-->
+<!--<div class="container">-->
+<!--<div class="newsletter">-->
+<!--<h3>Newsletter</h3>-->
+<!--<form method="post" class="form-newsletter">-->
+<!--<input type="email" name="EMAIL" placeholder="Enter your Email" required>-->
+<!--<button type="submit">SUBSCRIBE</button>-->
+<!--</form>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="footer">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-sm-6">-->
+<!--<div class="widget-text">-->
+<!--<div class="footer-location">-->
+<!--<img src="static/images/logo1-footer.png" alt="">-->
+<!--<p>You have questions regarding our services? Contact us, we will be happy to help you out!</p>-->
+<!--<ul class="info">-->
+<!--<li><i class="ion-ios-location"></i> <a href="contact.html#sc-google-map">329 Queensberry Street, North Melbourne VIC 3051, Australia.</a></li>-->
+<!--<li><i class="ion-ios-telephone"></i><a href="tel:8812345678">(+88) 12-345-678</a></li>-->
+<!--<li><i class="ion-email"></i><a href="https://html.thimpress.com/cdn-cgi/l/email-protection#dbb8b4b5afbab8af9bafb3b2b6aba9bea8a8f5b8b4b6"><span class="__cf_email__" data-cfemail="53303c3d2732302713273b3a3e23213620207d303c3e">[email&#160;protected]</span></a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-2">-->
+<!--<div class="widget-menu">-->
+<!--<h3 class="widget-title">Booking</h3>-->
+<!--<ul class="menu">-->
+<!--<li><a href="#">Rooms & Suites</a></li>-->
+<!--<li><a href="#">Restaurant</a></li>-->
+<!--<li><a href="#">Spa & Fitness</a></li>-->
+<!--<li><a href="#">Shop</a></li>-->
+<!--<li><a href="#">Gallery</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-2">-->
+<!--<div class="widget-menu">-->
+<!--<h3 class="widget-title">About Us</h3>-->
+<!--<ul class="menu">-->
+<!--<li><a href="#">Our Story</a></li>-->
+<!--<li><a href="#">Blog & Events</a></li>-->
+<!--<li><a href="#">Awards</a></li>-->
+<!--<li><a href="#">About Us</a></li>-->
+<!--<li><a href="#">Contact Us</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-2">-->
+<!--<div class="widget-menu">-->
+<!--<h3 class="widget-title">Connect Us</h3>-->
+<!--<ul class="list-social">-->
+<!--<li><a class="facebook" href="https://www.facebook.com/thimpress">Facebook</a></li>-->
+<!--<li><a class="twitter" href="https://www.twitter.com/thimpress">Twitter</a></li>-->
+<!--<li><a class="instagram" href="http://www.thimpress.com/">Instagram</a></li>-->
+<!--<li><a class="youtube" href="http://www.thimpress.com/">Youtube</a></li>-->
+<!--<li><a class="google" href="http://www.thimpress.com/">Google +</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="copyright">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="copyright-content col-sm-12">-->
+<!--<p class="copyright-text">© 2018 <a href="#">Sunrise Hotel</a> by <a href="https://thimpress.com/">ThimPress</a>. All Rights Reserved.</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</footer>-->
+</div>
+<div id="back-to-top">
+<i class="ion-ios-arrow-up" aria-hidden="true"></i>
+</div>
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="static/js/libs/jquery.min.js"></script>
+<script src="static/js/libs/stellar.min.js"></script>
+<script src="static/js/libs/jquery-ui.min.js"></script>
+<script src="static/js/libs/daterangepicker.min.js"></script>
+<script src="static/js/libs/daterangepicker.min-date.min.js"></script>
+<script src="static/js/libs/bootstrap.min.js"></script>
+<script src="static/js/libs/smoothscroll.min.js"></script>
+<script src="static/js/libs/owl.carousel.min.js"></script>
+<script src="static/js/libs/jquery.magnific-popup.min.js"></script>
+<script src="static/js/libs/theia-sticky-sidebar.min.js"></script>
+<script src="static/js/libs/counter-box.min.js"></script>
+<script src="static/js/libs/jquery.thim-content-slider.min.js"></script>
+<script src="static/js/libs/jquery.mb-comingsoon.min.js"></script>
+<script src="static/js/theme-customs.js"></script>
+<script>
+    $(".thim-countdown .count-down").mbComingsoon({
+        expiryDate: new Date($(".thim-countdown").data('date')),
+        speed     : 100
+    });
+</script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'799ea7166e73032a',m:'ElyFLnhh.Lr68JMcKBtH5VKnkojiB5Pc7Cedv2shJ70-1676470496-0-AZvS1MKdA1gzE9WGqWbQ6zrJEqVIfCwA5H3VTfMxjS9m6mYcrbU8Ui8QMFGdK32cuKt/vu2O0eUxEY4k03UZjsEW2820ZVcxQIz2eTrI7DY4u9GkWLgkY2AyKJNEelh3odH7KCCf+mOPx19i+YlQeb+10ykWQ27TMeRXlGbQJydx',s:[0xe8776ce184,0x79439115f8],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from html.thimpress.com/hotelwp/event-single-expired.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:10:33 GMT -->
+</html>

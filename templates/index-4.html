@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.thimpress.com/hotelwp/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:09:26 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HOTEL HTML TEMPLATE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="static/images/icons/favicon.png">
+
+<link rel="stylesheet" type="text/css" href="static/css/libs/revolution/settings.css">
+<link rel="stylesheet" href="static/css/libs/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="demo-4 home">
+<div id="preloading">
+<div class="loading-icon">
+<div class="sk-folding-cube">
+<div class="sk-cube1 sk-cube"></div>
+<div class="sk-cube2 sk-cube"></div>
+<div class="sk-cube4 sk-cube"></div>
+<div class="sk-cube3 sk-cube"></div>
+</div>
+</div>
+</div>
+
+<div id="wrapper-container" class="content-pusher">
+<div class="overlay-close-menu"></div>
+<!--<header id="masthead" class="header-default header_v4 affix-top sticky-header ">-->
+ {% include 'header.html' %}
+<!--<div class="row">-->
+<!--<div class="header-menu col-sm-12 tm-table">-->
+<!--<div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">-->
+<!--<div class="icon-wrap">-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="width-logo sm-logo table-cell text-center">-->
+<!--<a href="/index" class="no-sticky-logo" title="Hotel HTML Template">-->
+<!--<img class="logo" src="static/images/logo4.png" alt="">-->
+<!--<img class="mobile-logo" src="static/images/logo4.png" alt="">-->
+<!--</a>-->
+<!--<a href="/index" class="sticky-logo">-->
+<!--<img src="static/images/logo4.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="width-navigation navigation table-cell">-->
+<!--<div class="top-toolbar clearfix">-->
+<!--<div class="toolbar-info pull-left col-sm-8">-->
+<!--<ul>-->
+<!--<li>-->
+<!--<i class="ion-ios-telephone-outline"></i><a href="tel:19004568299">1 - 900 - 456 - 8299</a> <span class="text">7AM - 6PM PST</span>-->
+<!--</li>-->
+<!--<li>-->
+<!--<i class="ion-ios-book-outline"></i><a href="#">request a catalog</a><span class="text">it’s free</span>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="toolbar-right pull-right col-sm-4">-->
+<!--<ul class="top-menu">-->
+<!--<li class="menu-item"><a href="/about-us">About</a></li>-->
+<!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+<!--</ul>-->
+<!--<ul class="user-info">-->
+<!--<li><a href="#"><i class="ion-ios-person-outline"></i></a></li>-->
+<!--<li><a href="#"><i class="ion-ios-shuffle"></i></a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<ul class="nav main-menu">-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/index">Home</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/">Home 01</a></li>-->
+<!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+<!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+<!-- <li class="menu-item"><a href="/index-4">Home 04</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/rooms">Rooms</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+<!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+<!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/blog">Blog</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+<!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+<!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="#">Features</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+<!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+<!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+<!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/events">Events</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/events-2columns">Events Gird View</a></li>-->
+<!--<li class="menu-item"><a href="/events">Events List view</a></li>-->
+<!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+<!--<li class="menu-item"><a href="/event-single-expired">Event Single Expired</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+<!--</ul>-->
+<!--<div class="header-right">-->
+<!--<div class="search-box">-->
+<!--<div class="toggle-form"><i class="ion-ios-search-strong"></i></div>-->
+<!--<div class="form-search-wrapper">-->
+<!-- <div class="background-toggle"></div>-->
+<!--<form role="search" method="get" class="search-form" action="#">-->
+<!--<input type="search" class="search-field" placeholder="Search..." value="" name="s" />-->
+<!--<button type="submit"><i class="ion-ios-search-strong"></i></button>-->
+<!--</form>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</header>-->
+
+  {% include 'mobile.html' %}
+<!--<nav class="visible-xs mobile-menu-container mobile-effect" itemscope itemtype="http://schema.org/SiteNavigationElement">-->
+<!--<div class="inner-off-canvas">-->
+<!--<div class="menu-mobile-effect navbar-toggle">Close <i class="fa fa-times"></i></div>-->
+<!--<ul class="nav main-menu">-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/index">Home</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/index">Home 01</a></li>-->
+<!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+<!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/rooms">Rooms</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+<!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+<!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/blog">Blog</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+<!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+<!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/events">Events</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/events-2columns">Events Grid View</a></li>-->
+<!--<li class="menu-item"><a href="/events">Events List View</a></li>-->
+<!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+<!--<li class="menu-item"><a href="/event-single-expired">Event Single Expired</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="#">Features</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+<!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+<!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+<!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+<!-- <li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</nav>-->
+
+<div id="main-content" class="main-content">
+<div id="home-main-content" class="home-main-content home-4">
+<div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper slider-home4 fullwidthbanner-container" data-alias="home-4" data-source="gallery" style="margin:0px auto;background:#FFFFFF;padding:0px;margin-top:0px;margin-bottom:0px;background-image:url('static/images/slides/h4-slider-1.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
+
+<div id="rev_slider_5_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
+<ul>
+
+<li data-index="rs-13" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="static/images/slides/h4-slider-1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+<img src="static/images/slides/h4-slider-1.jpg" alt="" title="home4-slide-1" width="1920" height="721" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+
+<h1 class="tp-caption slider-h4-title   tp-resizeme" id="slide-13-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-109','-109','-109','-76']" data-fontsize="['65','65','40','30']" data-lineheight="['76','76','50','36']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 65px; line-height: 76px; font-weight: 400; color: rgba(255,255,255,1); text-transform:capitalize;">
+ Get 10% Off On Your Next Travel </h1>
+
+<p class="tp-caption   tp-resizeme" id="slide-13-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-24','-3']" data-fontsize="['22','22','22','18']" data-lineheight="['28','28','28','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 22px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1); ">
+Trips, experiences and places. All in one service. </p>
+
+<p class="tp-caption slider-h4-price   tp-resizeme" id="slide-13-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']" data-y="['middle','middle','middle','middle']" data-voffset="['48','48','30','50']" data-fontsize="['22','22','22','18']" data-lineheight="['28','28','28','25']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 22px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1); ">
+14 days from <span>$1.200</span></p>
+
+<p class="tp-caption   tp-resizeme" id="slide-13-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','1','0']" data-y="['middle','middle','middle','middle']" data-voffset="['120','120','90','120']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: nowrap; font-size: 16px; line-height: 22px; font-weight: 500; color: rgba(255,255,255,1); text-transform:uppercase;">
+<a class="slider-h4-button" href="#">start you tour</a></p>
+</li>
+
+<li data-index="rs-17" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="static/images/slides/h1-slider2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+<img src="static/images/slides/h1-slider2.jpg" alt="" title="home4-slide-1" width="1920" height="721" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+
+<h1 class="tp-caption slider-h4-title   tp-resizeme" id="slide-17-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-109','-109','-109','-76']" data-fontsize="['65','65','40','30']" data-lineheight="['76','76','50','36']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 65px; line-height: 76px; font-weight: 400; color: rgba(255,255,255,1);text-transform:capitalize;">
+Get 10% Off On Your Next Travel </h1>
+
+<p class="tp-caption   tp-resizeme" id="slide-17-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-24','-3']" data-fontsize="['22','22','22','18']" data-lineheight="['28','28','28','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 22px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);">
+Trips, experiences and places. All in one service. </p>
+
+<p class="tp-caption slider-h4-price   tp-resizeme" id="slide-17-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']" data-y="['middle','middle','middle','middle']" data-voffset="['48','48','30','50']" data-fontsize="['22','22','22','18']" data-lineheight="['28','28','28','25']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 22px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);">
+14 days from <span>$1.200</span></p>
+
+<p class="tp-caption   tp-resizeme" id="slide-17-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','1','0']" data-y="['middle','middle','middle','middle']" data-voffset="['120','120','90','120']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: nowrap; font-size: 16px; line-height: 22px; font-weight: 500; color: rgba(255,255,255,1);text-transform:uppercase;">
+<a class="slider-h4-button" href="#">start you tour</a></p>
+</li>
+
+<li data-index="rs-16" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="static/images/slides/h3-slider3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+<img src="static/images/slides/h3-slider3.jpg" alt="" title="home4-slide-1" width="1920" height="721" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+
+<h1 class="tp-caption slider-h4-title   tp-resizeme" id="slide-16-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-109','-109','-109','-76']" data-fontsize="['65','65','40','30']" data-lineheight="['76','76','50','36']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 65px; line-height: 76px; font-weight: 400; color: rgba(255,255,255,1); text-transform:capitalize;">
+Get 10% Off On Your Next Travel </h1>
+
+<p class="tp-caption   tp-resizeme" id="slide-16-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-5','-5','-24','-3']" data-fontsize="['22','22','22','18']" data-lineheight="['28','28','28','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 22px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1); ">
+Trips, experiences and places. All in one service. </p>
+
+<p class="tp-caption slider-h4-price   tp-resizeme" id="slide-16-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','-1','0']" data-y="['middle','middle','middle','middle']" data-voffset="['48','48','30','50']" data-fontsize="['22','22','22','18']" data-lineheight="['28','28','28','25']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 22px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);">
+14 days from <span>$1.200</span></p>
+
+<p class="tp-caption   tp-resizeme" id="slide-16-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','1','0']" data-y="['middle','middle','middle','middle']" data-voffset="['120','120','90','120']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: nowrap; font-size: 16px; line-height: 22px; font-weight: 500; color: rgba(255,255,255,1);text-transform:uppercase;">
+<a class="slider-h4-button" href="#">start you tour</a></p>
+</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+</div>
+</div>
+<div class="h4-group-check-room">
+<div class="container w-1192">
+<div class="sc-travel style-01">
+<div class="row">
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-travel-1.jpg" alt="">
+ <div class="inner">
+<div class="country">Brasil</div>
+<div class="name"><a href="#">The Wonderful Rio</a></div>
+<div class="rating"><span class="rating-star"></span></div>
+<div class="info">7 days from $ 1450</div>
+</div>
+</div>
+</div>
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-travel-2.jpg" alt="">
+<div class="inner">
+<div class="country">VietNam</div>
+<div class="name"><a href="#">Ha Long Bay</a></div>
+<div class="rating"><span class="rating-star"></span></div>
+<div class="info">7 days from $ 1000</div>
+</div>
+</div>
+</div>
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-travel-3.jpg" alt="">
+<div class="inner">
+<div class="country">Korea</div>
+<div class="name"><a href="#">Sun World</a></div>
+<div class="rating"><span class="rating-star"></span></div>
+<div class="info">7 days from $ 1650</div>
+</div>
+</div>
+</div>
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-travel-4.jpg" alt="">
+<div class="inner">
+<div class="country">Indonesia</div>
+<div class="name"><a href="#">East Jakarta 2018</a></div>
+<div class="rating"><span class="rating-star"></span></div>
+<div class="info">7 days from $ 1950</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container w-1192">
+<div class="sc-travel-search">
+<div class="travel-search">
+<div class="first-text"><span>FIND YOUR ADVENTURE</span></div>
+<form action="https://html.thimpress.com/hotelwp/travel-search.html" class="search-form clearfix">
+<ul class="hb-form-table clearfix">
+<li class="form-field countries">
+<select required name="countries">
+<option value="">Select a Location</option>
+<option value="Afghanistan">Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="American Samoa">American Samoa</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Anguilla">Anguilla</option>
+ <option value="Antarctica">Antarctica</option>
+<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Aruba">Aruba</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+<option value="Botswana">Botswana</option>
+<option value="Bouvet Island">Bouvet Island</option>
+<option value="Brazil">Brazil</option>
+<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+<option value="Brunei Darussalam">Brunei Darussalam</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Canada">Canada</option>
+<option value="Cape Verde">Cape Verde</option>
+<option value="Cayman Islands">Cayman Islands</option>
+<option value="Central African Republic">Central African Republic</option>
+<option value="Chad">Chad</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Christmas Island">Christmas Island</option>
+<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+<option value="Colombia">Colombia</option>
+<option value="Comoros">Comoros</option>
+<option value="Congo">Congo</option>
+<option value="Cook Islands">Cook Islands</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Cote D'ivoire">Cote D'ivoire</option>
+<option value="Croatia">Croatia</option>
+<option value="Cuba">Cuba</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican Republic">Dominican Republic</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Equatorial Guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+<option value="Faroe Islands">Faroe Islands</option>
+<option value="Fiji">Fiji</option>
+<option value="Finland">Finland</option>
+<option value="France">France</option>
+<option value="French Guiana">French Guiana</option>
+<option value="French Polynesia">French Polynesia</option>
+<option value="French Southern Territories">French Southern Territories</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="Gibraltar">Gibraltar</option>
+<option value="Greece">Greece</option>
+<option value="Greenland">Greenland</option>
+<option value="Grenada">Grenada</option>
+<option value="Guadeloupe">Guadeloupe</option>
+<option value="Guam">Guam</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guinea">Guinea</option>
+<option value="Guinea-bissau">Guinea-bissau</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Holy See (Vatican City State)">Holy See</option>
+<option value="Honduras">Honduras</option>
+<option value="Hong Kong">Hong Kong</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland">Iceland</option>
+<option value="India">India</option>
+ <option value="Indonesia">Indonesia</option>
+<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="Korea, Democratic People's Republic of">North Korea</option>
+<option value="Korea, Republic of">South Korea</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Lao People's Democratic Republic">Laos</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon">Lebanon</option>
+<option value="Lesotho">Lesotho</option>
+<option value="Liberia">Liberia</option>
+<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Macao">Macao</option>
+<option value="Macedonia, The Former Yugoslav Republic of">Macedonia</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malawi">Malawi</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Maldives">Maldives</option>
+<option value="Mali">Mali</option>
+<option value="Malta">Malta</option>
+<option value="Marshall Islands">Marshall Islands</option>
+<option value="Martinique">Martinique</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mayotte">Mayotte</option>
+<option value="Mexico">Mexico</option>
+<option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+<option value="Moldova, Republic of">Moldova, Republic of</option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montserrat">Montserrat</option>
+ <option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Namibia">Namibia</option>
+<option value="Nauru">Nauru</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherlands">Netherlands</option>
+<option value="Netherlands Antilles">Netherlands Antilles</option>
+<option value="New Caledonia">New Caledonia</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Niue">Niue</option>
+<option value="Norfolk Island">Norfolk Island</option>
+<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palau">Palau</option>
+<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+<option value="Panama">Panama</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Pitcairn">Pitcairn</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Puerto Rico">Puerto Rico</option>
+<option value="Qatar">Qatar</option>
+<option value="Reunion">Reunion</option>
+<option value="Romania">Romania</option>
+<option value="Russian Federation">Russian Federation</option>
+<option value="Rwanda">Rwanda</option>
+<option value="Saint Helena">Saint Helena</option>
+<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+<option value="Saint Lucia">Saint Lucia</option>
+<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+<option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+<option value="Samoa">Samoa</option>
+<option value="San Marino">San Marino</option>
+<option value="Sao Tome and Principe">Sao Tome and Principe</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia and Montenegro">Serbia and Montenegro</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra Leone">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovakia">Slovakia</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon Islands">Solomon Islands</option>
+<option value="Somalia">Somalia</option>
+<option value="South Africa">South Africa</option>
+<option value="South Georgia and The South Sandwich Islands">South Georgia and Islands</option>
+<option value="Spain">Spain</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+<option value="Swaziland">Swaziland</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syrian Arab Republic">Syrian Arab Republic</option>
+<option value="Taiwan, Province of China">Taiwan, Province of China</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+<option value="Thailand">Thailand</option>
+<option value="Timor-leste">Timor-leste</option>
+<option value="Togo">Togo</option>
+<option value="Tokelau">Tokelau</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Emirates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States">United States</option>
+<option value="Uruguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu">Vanuatu</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Viet Nam">Viet Nam</option>
+<option value="Virgin Islands, British">Virgin Islands, British</option>
+<option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+<option value="Wallis and Futuna">Wallis and Futuna</option>
+<option value="Western Sahara">Western Sahara</option>
+<option value="Yemen">Yemen</option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option>
+</select>
+</li>
+<li class="form-field check-in">
+<input name="date" id="date-in" required class="date-in" type="text" placeholder="Check-in date" value="" />
+</li>
+<li class="form-field guest">
+<input name="guest" required type="number" id="number" min="1" class="guest" placeholder="Number of guest" value="" />
+</li>
+</ul>
+<p class="hb-submit">
+<button type="submit" class="submit">Search</button>
+</p>
+</form>
+<div class="second-text"><span>125 Trips Meet Your Criteria</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="container">
+<div class="sc-heading style-04 text-center">
+<h3 class="title">Popular Destinations</h3>
+<p class="description">World's best tourist destinations</p>
+</div>
+<div class="sc-tourist style-01">
+<div class="row">
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-tourist-1.jpg" alt="">
+<div class="inner">
+<h4 class="title"><a href="#">Leeds</a></h4>
+<div class="info">City Tours, Iconic</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+</div>
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-tourist-2.jpg" alt="">
+<div class="inner">
+<h4 class="title"><a href="#">Manchester</a></h4>
+<div class="info">City Tours, Urban</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+</div>
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-tourist-3.jpg" alt="">
+<div class="inner">
+<h4 class="title"><a href="#">Liverpool</a></h4>
+<div class="info">Shopping, Snow</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+</div>
+<div class="item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-tourist-4.jpg" alt="">
+<div class="inner">
+<h4 class="title"><a href="#">London</a></h4>
+<div class="info">City Tours, Urban</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sc-group-iconbox text-center">
+<div class="top-description">
+<p>Aenean hendrerit maximus aliquet. Pellentesque interdum odio dui, vitae eleifend <br>
+nibh aliquet ac. Vestibulum ante ipsum primis in faucibus orci luctus et <br>
+ultrices posuere cubilia Curae; Nunc diam lorem, </p>
+</div>
+<div class="row">
+<div class="box-item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-icon1.png" alt="">
+<div class="title">500+ Destinations</div>
+<p class="name">Parturient Magna</p>
+</div>
+</div>
+<div class="box-item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-icon2.png" alt="">
+<div class="title">Best Price In The Industry</div>
+<p class="name">Justo Fringilla Sit</p>
+</div>
+</div>
+<div class="box-item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-icon3.png" alt="">
+<div class="title">Great Customer Support</div>
+<p class="name">Ligula Euism Pharet</p>
+</div>
+</div>
+<div class="box-item col-sm-3">
+<div class="content">
+<img src="static/images/home/h4-icon4.png" alt="">
+<div class="title">Super Fast Booking</div>
+<p class="name">Porta Ligula Justo</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="h4-bg-reason">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+</div>
+<div class="col-sm-6">
+<div class="sc-reason">
+<h3 class="title">Why Choose Us !</h3>
+<ul class="list-reason">
+<li><i class="ion-android-notifications-none"></i>All placges and activiates are carefully picked by us</li>
+<li><i class="ion-ios-information-outline"></i>Best price guaranteee & Hassle free!</li>
+<li><i class="ion-ios-star-outline"></i>We are an award winning agency</li>
+<li><i class="ion-ios-heart-outline"></i>Trusted by more than 80,000 customers</li>
+</ul>
+<a href="/about-us" class="btn-radius">FIND OUT MORE!</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sc-travel style-02">
+<div class="sc-content-overlay">
+<div class="empty-space"></div>
+<div class="container">
+<div class="sc-heading style-04 text-center white-color">
+<h3 class="title">Best Value Trips</h3>
+<p class="description">Best offers trips from us</p>
+</div>
+<div class="slides">
+<div class="travel-slider owl-theme owl-carousel">
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-travel-a.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price">$40.00</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">Camping Americas</a></div>
+<div class="meta">City Tours, Urban</div>
+<div class="description">Sitting on the high cliffs of the Amalfi Coast,
+Casa Angelinaoffers a sublime slice modern
+minimalism elegant simplicity</div>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 2 reviews</span></div>
+<div class="time"><i class="ion-ios-time-outline"></i> 3 Days, 4 Nights</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-travel-b.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price"><del>$97.00</del><ins>$62.00</ins></span><span class="sale">Hot</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">Anchorage to Santiago</a></div>
+<div class="meta">Shopping, Mountain</div>
+<div class="description">Sitting on the high cliffs of the Amalfi Coast,
+Casa Angelinaoffers a sublime slice modern
+minimalism elegant simplicity</div>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 3 reviews</span></div>
+<div class="time"><i class="ion-ios-time-outline"></i> 3 Days, 4 Nights</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-travel-c.jpg" alt=""></a>
+<div class="meta-img">
+ <span class="price"><del>$82.00</del><ins>$70.00</ins></span><span class="sale">Sale</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">Kiwiana Panorama</a></div>
+<div class="meta">Snow & Ice</div>
+<div class="description">Sitting on the high cliffs of the Amalfi Coast,
+Casa Angelinaoffers a sublime slice modern
+minimalism elegant simplicity</div>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 1 reviews</span></div>
+<div class="time"><i class="ion-ios-time-outline"></i> 3 Days, 3 Nights</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-travel-a.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price">$50</span><span class="sale">Sale</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">Ha Long Bay</a></div>
+<div class="meta">City Tours, Urban</div>
+<div class="description">Sitting on the high cliffs of the Amalfi Coast,
+Casa Angelinaoffers a sublime slice modern
+minimalism elegant simplicity</div>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 3 reviews</span></div>
+<div class="time"><i class="ion-ios-time-outline"></i> 4 Days, 5 Nights</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="container">
+<div class="sc-heading style-04 text-center">
+<h3 class="title">Room & Suites</h3>
+<p class="description">Choose from a variety of sizes and styles</p>
+</div>
+<div class="sc-rooms style-04">
+<div class="row">
+<div class="items-small col-sm-3">
+<div class="item">
+<img src="static/images/home/h4-room-1.jpg" alt="">
+<div class="content">
+<h4 class="title"><a href="/room-single">Double Room</a></h4>
+<div class="price">$1.900/night</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+<div class="item">
+ <img src="static/images/home/h4-room-2.jpg" alt="">
+<div class="content">
+<h4 class="title"><a href="/room-single">Classic Room</a></h4>
+<div class="price">$800/night</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+</div>
+<div class="item-large col-sm-6">
+<div class="item">
+<img src="static/images/home/h4-room-3.jpg" alt="">
+<div class="content">
+<h4 class="title"><a href="/room-single">Luxury Room</a></h4>
+<div class="price">$3.000/night</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+</div>
+<div class="items-small col-sm-3">
+<div class="item">
+<img src="static/images/home/h4-room-4.jpg" alt="">
+<div class="content">
+<h4 class="title"><a href="/room-single">Flex Room</a></h4>
+<div class="price">$1.100/night</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+<div class="item">
+<img src="static/images/home/h4-room-5.jpg" alt="">
+<div class="content">
+<h4 class="title"><a href="/room-single">Budget Room</a></h4>
+<div class="price">$1.200/night</div>
+<div class="rating"><span class="rating-star"></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space" style="height: 68px;"></div>
+<div class="sc-brands style-01">
+<ul class="list-logo">
+<li><a href="#"><img src="static/images/home/h4-logo3.jpg" alt=""></a></li>
+<li><a href="#"><img src="static/images/home/h4-logo1.jpg" alt=""></a></li>
+<li><a href="#"><img src="static/images/home/h4-logo2.jpg" alt=""></a></li>
+<li><a href="#"><img src="static/images/home/h4-logo4.jpg" alt=""></a></li>
+</ul>
+</div>
+</div>
+<div class="h4-quote">
+<div class="container">
+<div class="sc-quote style-04 text-center">
+<div class="top-title">OARS HAS SOMETHING FOR EVERYONE</div>
+<div class="title">SPEAK TO AN EXPERT AT <a href="tel:19005468288">1-900-546-8288</a></div>
+<a href="#" class="btn-radius">Browse all adventures</a>
+</div>
+</div>
+</div>
+<div class="h4-group-video-testimonial">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<div class="sc-testimonial style-04">
+<div class="slider owl-carousel owl-theme">
+<div class="item">
+<div class="description">
+Aenean hendrerit maximus aliquet. Pellentesque interdum
+odio dui, vitae eleifend nibh aliquet ac. Vestibulum ante
+ipsum primis in faucibus orci luctus et
+</div>
+<div class="rating"><span class="rating-star"></span></div>
+<div class="author clearfix">
+<img src="static/images/blog/author1.jpg" alt="">
+<div class="info">
+<div class="name">Amy johnson</div>
+<div class="regency">Adventurer</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="description">
+Aenean hendrerit maximus aliquet. Pellentesque interdum
+odio dui, vitae eleifend nibh aliquet ac. Vestibulum ante
+ipsum primis in faucibus orci luctus et
+</div>
+<div class="rating"><span class="rating-star"></span></div>
+<div class="author clearfix">
+<img src="static/images/blog/author2.jpg" alt="">
+<div class="info">
+<div class="name">Bobby</div>
+<div class="regency">Designer</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="description">
+Aenean hendrerit maximus aliquet. Pellentesque interdum
+odio dui, vitae eleifend nibh aliquet ac. Vestibulum ante
+ipsum primis in faucibus orci luctus et
+</div>
+<div class="rating"><span class="rating-star"></span></div>
+<div class="author clearfix">
+<img src="static/images/blog/author3.jpg" alt="">
+<div class="info">
+<div class="name">Kenny Ngoc</div>
+<div class="regency">Adventurer</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="sc-video style-02">
+<div class="background-video">
+<div class="cover-image"></div>
+<div class="content container">
+<i class="video-play ion-ios-play"></i>
+<h4 class="title-video">Beauty West Coast</h4>
+</div>
+<video loop="" class="full-screen-video" data-autoplay="">
+<source src="static/images/home/hotel.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space" style="height: 130px;"></div>
+ <div class="container">
+<div class="sc-heading style-04 text-center">
+<h3 class="title">Cruise Tours</h3>
+<p class="description">Here are reasons you should plan trip with us</p>
+</div>
+<div class="sc-tourist style-02">
+<div class="row">
+<div class="col-sm-4">
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-tourist-a.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price">$40.00</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">Spain Boat Tour</a></div>
+<ul class="meta">
+<li>Cruise</li>
+<li class="icon"></li>
+<li>From: Italy to Spain</li>
+</ul>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 3 reviews</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-tourist-b.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price"><del>$80.00</del><ins>$70.00</ins></span><span class="sale">HOT</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">You Go Cruise</a></div>
+<ul class="meta">
+<li>Cruise</li>
+<li class="icon"></li>
+<li>From: Italy to Spain</li>
+</ul>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 3 reviews</span></div>
+<div class="sale"><i class="ion-ios-time-outline"></i> 10% DISCOUNTS</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-tourist-c.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price"><del>$80.00</del><ins>$70.00</ins></span><span class="sale">Sale</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">New Cruise Ships Hitting</a></div>
+<ul class="meta">
+ <li>Cruise</li>
+<li class="icon"></li>
+<li>From: Italy to Spain</li>
+</ul>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 1 reviews</span></div>
+<div class="sale"><i class="ion-ios-time-outline"></i> 10% DISCOUNTS</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-tourist-d.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price">$50.00</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">Greece Islands Ship Tour</a></div>
+<ul class="meta">
+<li>Cruise</li>
+<li class="icon"></li>
+<li>From: Italy to Spain</li>
+</ul>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 3 reviews</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-tourist-e.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price">$60.00</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">Maldives Ship Tour</a></div>
+<ul class="meta">
+<li>Cruise</li>
+<li class="icon"></li>
+<li>From: Italy to Spain</li>
+</ul>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 3 reviews</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="item">
+<div class="image">
+<a href="#"><img src="static/images/home/h4-tourist-f.jpg" alt=""></a>
+<div class="meta-img">
+<span class="price">$78.00</span>
+</div>
+</div>
+<div class="inner">
+<div class="content">
+<div class="title"><a href="#">London City Tourist</a></div>
+<ul class="meta">
+<li>Cruise</li>
+<li class="icon"></li>
+<li>From: Italy to Spain</li>
+</ul>
+</div>
+<div class="review clearfix">
+<div class="rating"><span class="rating-star"> 2 reviews</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="view-all text-center">
+<a href="#" class="btn-radius">View All cruise</a>
+</div>
+</div>
+</div>
+<div class="empty-space" style="height: 120px;"></div>
+<div class="h4-count-down text-center">
+<div class="sc-content-overlay">
+<div class="container">
+<div class="empty-space"></div>
+<div class="sc-count-down">
+<h3 class="title">
+Special Tour in April, Discover Australia for 100 <br>
+customers with discount 50%
+</h3>
+<p class="sub-title">It’s limited seating! Hurry up</p>
+<div class="countdown">
+<div class="tq-counter" data-time="Dec 26, 2019 18:00:00"></div>
+</div>
+<a href="#" class=" btn-get-tour"><i class="fa fa-map-marker"></i>get you tour</a>
+</div>
+<div class="empty-space" style="height: 120px;"></div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="container">
+<div class="sc-heading style-04 text-center">
+<h3 class="title">Articles & Tips</h3>
+<p class="description">Explore some of the best tips from around the world</p>
+</div>
+<div class="sc-posts style-02">
+<div class="row">
+<div class="item col-sm-4">
+<div class="post">
+<a href="/blog-single-gallery"><img src="static/images/home/h4-post-1.jpg" alt=""></a>
+<div class="content">
+<div class="meta"><span class="date">December 10, 2018</span></div>
+<div class="title"><a href="/blog-single-gallery">Memorial Day to Someone Told Me to Travel</a></div>
+<div class="description">Sitting on the high cliffs of the Amalfi Coast,
+Casa Angelinaoffers a sublime slice modern
+minimalism elegant simplicity</div>
+<a href="/blog-single-gallery" class="view-more">Read More</a>
+</div>
+</div>
+</div>
+<div class="item col-sm-4">
+<div class="post">
+<a href="/blog-single-gallery"><img src="static/images/home/h4-post-2.jpg" alt=""></a>
+<div class="content">
+<div class="meta"><span class="date">December 10, 2018</span></div>
+<div class="title"><a href="/blog-single-gallery">Festive forays: Five of Edinburgh’s
+best festive hangouts</a></div>
+<div class="description">Sitting on the high cliffs of the Amalfi Coast,
+Casa Angelinaoffers a sublime slice modern
+minimalism elegant simplicity</div>
+<a href="/blog-single-gallery" class="view-more">Read More</a>
+</div>
+</div>
+</div>
+<div class="item col-sm-4">
+<div class="post">
+<a href="/blog-single-gallery"><img src="static/images/home/h4-post-3.jpg" alt=""></a>
+<div class="content">
+<div class="meta"><span class="date">December 10, 2018</span></div>
+<div class="title"><a href="/blog-single-gallery">Sri Lankan Sensations: Resplendent
+Ceylon</a></div>
+<div class="description">Sitting on the high cliffs of the Amalfi Coast,
+Casa Angelinaoffers a sublime slice modern
+minimalism elegant simplicity</div>
+<a href="/blog-single-gallery" class="view-more">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space" style="height: 120px"></div>
+<div class="sc-images style-01">
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-3 col-md-2">
+<a href="#"><img src="static/images/home/h4-gallery-1.jpg" alt=""></a>
+</div>
+<div class="col-sm-3 col-md-2">
+<a href="#"><img src="static/images/home/h4-gallery-2.jpg" alt=""></a>
+</div>
+<div class="col-sm-3 col-md-2">
+<a href="#"><img src="static/images/home/h4-gallery-3.jpg" alt=""></a>
+</div>
+<div class="col-sm-3 col-md-2">
+<a href="#"><img src="static/images/home/h4-gallery-4.jpg" alt=""></a>
+</div>
+<div class="col-sm-3 col-md-2">
+<a href="#"><img src="static/images/home/h4-gallery-5.jpg" alt=""></a>
+</div>
+<div class="col-sm-3 col-md-2">
+<a href="#"><img src="static/images/home/h4-gallery-6.jpg" alt=""></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--<footer id="colophon" class="site-footer footer_v4">-->
+ {% include 'footer.html' %}
+<!--<div class="footer">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-sm-3">-->
+<!--<div class="widget-text">-->
+<!--<img src="static/images/logo4-footer.png" alt="">-->
+<!--<p class="info-text">Lorem ipsum dolor sit amet, consecte-->
+<!--adip sicing elit.</p>-->
+<!--<div class="widget-newsletter">-->
+<!--<form action="#" method="post">-->
+<!--<input type="email" name="EMAIL" placeholder="Email" required="">-->
+<!--<button type="submit">subscribe</button>-->
+<!--</form>-->
+<!--</div>-->
+<!--<ul class="social-link">-->
+<!--<li><a class="facebook" href="https://www.facebook.com/thimpress/"><i class="fa fa-facebook"></i></a></li>-->
+<!--<li><a class="twitter" href="https://www.twitter.com/thimpress/"><i class="fa fa-twitter"></i></a></li>-->
+<!--<li><a class="instagram" href="http://www.thimpress.com/"><i class="fa fa-instagram"></i></a></li>-->
+<!--<li><a class="pinterest" href="http://www.thimpress.com/"><i class="fa fa-pinterest"></i></a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-3 left30">-->
+<!--<div class="widget-menu ">-->
+<!--<h3 class="widget-title">Useful Links</h3>-->
+<!--<ul class="menu column-2">-->
+<!--<li><a href="#">Home</a></li>-->
+<!--<li><a href="#">About Us</a></li>-->
+<!--<li><a href="#">Blog</a></li>-->
+<!--<li><a href="#">Contact</a></li>-->
+<!--<li><a href="#">Forums</a></li>-->
+<!--<li><a href="#">Rooms</a></li>-->
+<!--<li><a href="#">Relax</a></li>-->
+<!--<li><a href="#">Beach</a></li>-->
+<!--<li><a href="#">Amenities</a></li>-->
+<!--<li><a href="#">404 Page</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-3">-->
+<!--<div class="widget-menu">-->
+<!--<h3 class="widget-title">Connect Us</h3>-->
+<!--<div class="footer-location">-->
+<!--<ul class="info">-->
+<!--<li class="clearfix"><i class="fa fa-phone"></i><a href="tel:8812345678">(+88) 12-345-678</a></li>-->
+<!--<li class="clearfix"><i class="fa fa-envelope"></i><a href="https://html.thimpress.com/cdn-cgi/l/email-protection#395a56574d585a4d794d515054494b5c4a4a175a5654"><span class="__cf_email__" data-cfemail="c0a3afaeb4a1a3b480b4a8a9adb0b2a5b3b3eea3afad">[email&#160;protected]</span></a></li>-->
+<!--<li class="clearfix"><i class="fa fa-fax"></i><a href="tel:8812345678">(+08) 12-345-678</a></li>-->
+<!--<li class="address clearfix"><i class="fa fa-map-marker"></i> <a href="/contact">123 Camino Ramon, San Ramon, United Kingdom</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-3">-->
+<!--<div class="widget-map">-->
+<!--<h3 class="widget-title">OUR WORLDWIDE OFFICE</h3>-->
+<!--<div class="footer-map">-->
+<!--<img src="static/images/home/h4-map.png" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="copyright">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="copyright-content col-sm-12">-->
+<!--<p class="copyright-text">© 2018 <a href="#">Sagar Travel</a> by <a href="https://thimpress.com/">ThimPress</a>. All Rights Reserved.</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</footer>-->
+</div>
+<div id="back-to-top">
+<i class="ion-ios-arrow-up" aria-hidden="true"></i>
+</div>
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="static/js/libs/jquery-1.12.4.min.js"></script>
+<script src="static/js/libs/jquery.plugin.min.js"></script>
+<script src="static/js/libs/bootstrap.min.js"></script>
+<script src="static/js/libs/smoothscroll.min.js"></script>
+<script src="static/js/libs/owl.carousel.min.js"></script>
+<script src="static/js/libs/jquery.magnific-popup.min.js"></script>
+<script src="static/js/libs/theia-sticky-sidebar.min.js"></script>
+<script src="static/js/libs/counter-box.min.js"></script>
+<script src="static/js/libs/stellar.min.js"></script>
+<script src="static/js/libs/moment.min.js"></script>
+<script src="static/js/libs/jquery-ui.min.js"></script>
+<script src="static/js/libs/daterangepicker.min.js"></script>
+<script src="static/js/libs/daterangepicker.min-date.min.js"></script>
+<script src="static/js/libs/jquery.thim-content-slider.min.js"></script>
+<script src="static/js/libs/jquery.countdown.min.js"></script>
+<script src="static/js/theme-customs.js"></script>
+<script>
+    // countdown each
+    var counts = $('.tq-counter');
+    for (var i = 0; i < counts.length; i++) {
+        var time = $(counts[i]).attr('data-time');
+        time = new Date(time);
+
+        var current_time = new Date(time);
+
+        $(counts[i]).countdown({
+            until     : current_time,
+            padZeroes: true,
+        });
+    }
+</script>
+
+<script src="static/js/libs/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="static/js/libs/revolution/jquery.themepunch.revolution.min.js"></script>
+
+<script src="static/js/libs/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.migration.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.video.min.js"></script>
+<script>function setREVStartSize(e) {
+    try {
+        e.c = jQuery(e.c);
+        var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+        if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
+            f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+        }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+            var u = (e.c.width(), jQuery(window).height());
+            if (void 0 != e.fullScreenOffsetContainer) {
+                var c = e.fullScreenOffsetContainer.split(",");
+                if (c) jQuery.each(c, function (e, i) {
+                    u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+            }
+            f = u
+        } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+        e.c.closest(".rev_slider_wrapper").css({height: f})
+    } catch (d) {
+        console.log("Failure at Presize of Slider:" + d)
+    }
+};</script>
+<script>
+    var revapi5,
+        tpj;
+    (function () {
+        if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad); else onLoad();
+
+        function onLoad() {
+            if (tpj === undefined) {
+                tpj = jQuery;
+                if ("off" == "on") tpj.noConflict();
+            }
+            if (tpj("#rev_slider_5_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_5_1");
+            } else {
+                revapi5 = tpj("#rev_slider_5_1").show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "//hotelwp.thimpress.com/demo-3/wp-content/plugins/revslider/public/assets/static/js/",
+                    sliderLayout: "fullwidth",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        mouseScrollReverse: "default",
+                        onHoverStop: "off",
+                        arrows: {
+                            style: "zeus",
+                            enable: true,
+                            hide_onmobile: false,
+                            hide_onleave: false,
+                            tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 30,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 20,
+                                v_offset: 0
+                            }
+                        }
+                    },
+                    viewPort: {
+                        enable: true,
+                        outof: "wait",
+                        visible_area: "80%",
+                        presize: false
+                    },
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1240, 1024, 778, 480],
+                    gridheight: [672, 600, 500, 400],
+                    lazyType: "none",
+                    shadow: 0,
+                    spinner: "off",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+            ;
+            /* END OF revapi call */
+
+        };
+        /* END OF ON LOAD FUNCTION */
+    }());
+    /* END OF WRAPPING FUNCTION */
+</script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'799ea6f50b45032a',m:'UJ2SYtrr.CJ_nG2SKSzCzvYbOsDs9YtMhcc5yyzWPl4-1676470491-0-AYZVeXM1g9VsshxwCxwAql8KnEE3qJp0mo0x6vBS/aPmDoPIzM3mnEeVBQzo2SbOu0fVTKRBU4GY96P0QY+ZG3lID+zdKvCM17TuMAf9HDP8U8u5zjCGY9fuJbjhs747KNGlAzrXfv8Nu0wCQH/Ul5g=',s:[0x60b3c1833a,0xa1958eaeda],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from html.thimpress.com/hotelwp/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:10:21 GMT -->
+</html>

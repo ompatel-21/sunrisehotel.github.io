@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.thimpress.com/hotelwp/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:09:21 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HOTEL HTML TEMPLATE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="static/images/icons/favicon.png">
+
+<link rel="stylesheet" type="text/css" href="static/css/libs/revolution/settings.css">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="demo-3 home">
+<div id="preloading" class="color2">
+<div class="loading-icon">
+<div class="sk-folding-cube">
+<div class="sk-cube1 sk-cube"></div>
+<div class="sk-cube2 sk-cube"></div>
+<div class="sk-cube4 sk-cube"></div>
+<div class="sk-cube3 sk-cube"></div>
+</div>
+</div>
+</div>
+
+<div id="wrapper-container" class="content-pusher">
+<div class="overlay-close-menu"></div>
+
+<!--<header id="masthead" class="header-overlay affix-top sticky-header header_v2">-->
+ {% include 'header.html' %}
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="header-menu col-sm-12 tm-table">-->
+<!--<div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">-->
+<!--<div class="icon-wrap">-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="width-logo sm-logo table-cell">-->
+<!--<a href="/index" class="no-sticky-logo" title="Hotel HTML Template">-->
+<!--<img class="logo" src="static/images/logo3.png" alt="">-->
+<!--<img class="mobile-logo" src="static/images/logo3.png" alt="">-->
+<!--</a>-->
+<!--<a href="/index" class="sticky-logo">-->
+<!--<img src="static/images/logo3.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="width-navigation navigation table-cell">-->
+<!--<ul class="nav main-menu">-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/index">Home</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/">Home 01</a></li>-->
+<!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+<!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+<!--<li class="menu-item"><a href="/index-4">Home 04</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/rooms">Rooms</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+<!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+<!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/blog">Blog</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+<!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+<!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+<!-- <li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="#">Features</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+<!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+<!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+<!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+<!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/events">Events</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/events-2columns">Events Gird View</a></li>-->
+<!--<li class="menu-item"><a href="/events">Events List view</a></li>-->
+<!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+<!--<li class="menu-item"><a href="/event-single-expired">Event Single Expired</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--</ul>-->
+<!--<div class="header-right">-->
+<!--<div class="language">-->
+<!--<div class="dropdown">-->
+<!--<a href="#" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false">-->
+<!--<i class="flag-el"></i>English<span class="fa fa-caret-down"></span>-->
+<!--</a>-->
+<!--<ul class="dropdown-language">-->
+<!--<li><a href="#"><i class="flag-it"></i>Italiano</a></li>-->
+<!--<li><a href="#"><i class="flag-de"></i>Deutsch</a></li>-->
+<!--<li><a href="#"><i class="flag-fr"></i>Français</a></li>-->
+<!--<li><a href="#"><i class="flag-es"></i>Español</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="phone">-->
+<!--<a href="tel:00123456789" class="value"><i class="fa fa-phone"></i> +00 123 456 789</a>-->
+<!--</div>-->
+<!--<div class="book-button">-->
+<!--<a href="/room" class="btn-book">BOOK NOW</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</header>-->
+
+  {% include 'mobile.html' %}
+<!--<nav class="visible-xs mobile-menu-container mobile-effect" itemscope itemtype="http://schema.org/SiteNavigationElement">-->
+<!--<div class="inner-off-canvas">-->
+<!--<div class="menu-mobile-effect navbar-toggle">Close <i class="fa fa-times"></i></div>-->
+<!--<ul class="nav main-menu">-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/index">Home</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/index">Home 01</a></li>-->
+<!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+<!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+<!--<li class="menu-item"><a href="/index-4">Home 04</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/rooms">Rooms</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+<!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+<!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/blog">Blog</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+<!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+<!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+<!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="#">Features</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+<!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+<!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+<!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+<!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+<!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--<li class="menu-item has-children">-->
+<!--<a href="/events">Events</a>-->
+<!--<ul class="sub-menu">-->
+<!--<li class="menu-item"><a href="/events-2columns">Events Gird View</a></li>-->
+<!--<li class="menu-item"><a href="/events">Events List view</a></li>-->
+<!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+<!--<li class="menu-item"><a href="/event-single-expired.html">Event Single Expired</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</nav>-->
+
+<div id="main-content" class="main-content">
+<div id="home-main-content" class="home-main-content home-1">
+<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullscreen-container no-mask-bg" data-alias="home-3" data-source="gallery" style="padding:0px;background-image:url('static/images/slides/h3-slider3.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
+
+<div id="rev_slider_2_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.7.4">
+<ul>
+
+<li data-index="rs-6" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="static/images/slides/h3-slider3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+<img src="static/images/slides/h3-slider3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+
+<h1 class="tp-caption   tp-resizeme" id="slide-6-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-60']" data-fontsize="['64','64','64','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;","speed":1500,"to":"o:1;","delay":300,"ease":"Power3.easeInOut"},{"delay":"wait","speed":100,"to":"opacity:0;","ease":"Power2.easeIn"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap; font-size: 64px; font-weight: 700; color: rgba(255,255,255,1);text-transform:uppercase;">
+A Five Star Hotel </h1>
+
+<p class="tp-caption   tp-resizeme" id="slide-6-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['5','5','5','5']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","speed":1500,"to":"o:1;","delay":900,"ease":"Power3.easeOut"},{"delay":"wait","speed":300,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1);">
+And We Like To Keep It That Way! </p>
+
+<div class="tp-caption   tp-resizeme  thim-link-slider" id="slide-6-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['60','60','60','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","speed":1500,"to":"o:1;","delay":900,"ease":"Power3.easeOut"},{"delay":"wait","speed":100,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; white-space: nowrap; font-size: 15px; font-weight: 700; color: rgba(255,255,255,1);text-transform:uppercase;">
+<a href="#">Contact Us</a></div>
+</li>
+
+<li data-index="rs-5" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="static/images/slides/h3-slider2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+<img src="static/images/slides/h3-slider2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+
+<h1 class="tp-caption   tp-resizeme" id="slide-5-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-60']" data-fontsize="['64','64','50','32']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":300,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":100,"to":"opacity:0;","ease":"Power2.easeIn"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: nowrap; font-size: 64px; font-weight: 700; color: rgba(255,255,255,1);text-transform:uppercase;">
+Book Early Save More </h1>
+
+<p class="tp-caption   tp-resizeme" id="slide-5-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['5','5','5','5']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":500,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":100,"to":"opacity:0;","ease":"Power2.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1);">
+Room Availability Checker and Booking </p>
+
+<div class="tp-caption   tp-resizeme  thim-link-slider" id="slide-5-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['60','60','60','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":1300,"ease":"Power3.easeInOut"},{"delay":"wait","speed":100,"to":"opacity:0;","ease":"Power2.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; white-space: nowrap; font-size: 15px; font-weight: 700; color: rgba(255,255,255,1);text-transform:uppercase;">
+<a href="#">Explore</a></div>
+</li>
+ 
+<li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="static/images/slides/h3-slider1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+<img src="static/images/slides/h3-slider1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+
+<h1 class="tp-caption   tp-resizeme" id="slide-4-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-60']" data-fontsize="['64','64','64','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":900,"ease":"Power3.easeInOut"},{"delay":"wait","speed":100,"to":"y:-50px;opacity:0;","ease":"nothing"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 64px; font-weight: 700; color: rgba(255,255,255,1);">
+DUBROVNIK DELUXE </h1>
+
+<p class="tp-caption   tp-resizeme" id="slide-4-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['5','5','5','5']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","speed":1500,"to":"o:1;","delay":900,"ease":"Power3.easeOut"},{"delay":"wait","speed":300,"to":"y:[-100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1);">
+Hotel Excelsior Dubrovnik from €488 per night </p>
+
+<div class="tp-caption   tp-resizeme  thim-link-slider" id="slide-4-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['60','60','60','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","speed":1500,"to":"o:1;","delay":900,"ease":"Power3.easeOut"},{"delay":"wait","speed":100,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 15px; font-weight: 700; color: rgba(255,255,255,1);text-transform:uppercase;">
+<a href="#">Discover</a></div>
+</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="container">
+<div class="sc-heading">
+<p class="first-title">WELCOME TO</p>
+<h3 class="second-title">OUR HOTEL</h3>
+</div>
+<div class="sc-info about-info row">
+<div class="col-sm-6">
+<p>Hotel TQ is a leader in the global hospitality industry, with a distinctive collection and a worldwide reputation for excellence. Our diverse portfolio includes historic icons, elegant resorts and modern city center properties. All of our hotels offer a superior guest experience that is uniquely ”Hotel WP”.</p>
+<a href="/about-us" class="btn-icon">Read More</a>
+</div>
+<div class="col-sm-6">
+<div class="sc-hb-rooms-search style-01">
+<div class="hotel-booking-search style-01 layout-columns">
+<form action="https://html.thimpress.com/hotelwp/rooms-search.html" class="hb-search-form">
+<ul class="hb-form-table clearfix">
+<li><input type="text" id="multidate2" class="multidate" value="" data-date-min="6" /></li>
+<li class="hb-form-field hb-form-check-in">
+<div class="label">Check-In</div>
+<div class="hb-form-field-input hb_input_field">
+<input id="month" class="month" type="text" value="" />
+<input type="text" id="day" class="day" value="" style="width: 68px;" />
+<input type="hidden" name="check_in_date" id="check_in_date" class="check-date hasDatepicker" value="" />
+</div>
+</li>
+<li class="hb-form-field hb-form-check-out">
+<div class="label">Check-Out</div>
+<div class="hb-form-field-input hb_input_field">
+<input id="month2" class="month" type="text" value="" />
+<input type="text" id="day2" class="day" value="" style="width: 83px;" />
+<input type="hidden" name="check_out_date" id="check_out_date" class="check-date hasDatepicker" value="" />
+</div>
+</li>
+<li class="hb-form-field hb-form-number">
+<div class="label">Guests</div>
+<div id="guests" class="hb-form-field-input hb_input_field">
+<span class="number-icons goUp"><i class="icomoon icon-up"></i></span>
+<select name="adults_capacity" tabindex="-1" aria-hidden="true">
+<option value="47">1</option>
+<option value="45">2</option>
+<option value="56">3</option>
+<option value="57">4</option>
+<option value="58">5</option>
+<option value="59">6</option>
+<option value="60">7</option>
+<option value="61">8</option>
+<option value="62">9</option>
+</select>
+<span class="number-icons goDown"><i class="icomoon icon-up"></i></span>
+</div>
+</li>
+</ul>
+<div class="hb-submit">
+<div class="contact-info">
+<p>Can we help you? Call us!</p>
+<p><a href="tel:0123456789">(+012) 34-567-89</a></p>
+</div>
+<button type="submit">Check Availability</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="sc-categories-link style-02">
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+<div class="item">
+<img src="static/images/home/h2-img1.jpg" alt="">
+<a href="/gallery-full-width" class="img-link"></a>
+<div class="content-overlay">
+<h4 class="title"><a href="/gallery-full-width">Rooms</a></h4>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="item">
+<img src="static/images/home/h2-img2.jpg" alt="">
+<a href="/gallery-full-width" class="img-link"></a>
+<div class="content-overlay">
+<h4 class="title"><a href="/gallery-full-width">Restaurant</a></h4>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="item">
+<img src="static/images/home/h2-img3.jpg" alt="">
+<a href="/gallery-full-width" class="img-link"></a> <div class="content-overlay">
+<h4 class="title"><a href="/gallery-full-width">Spa</a></h4>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="item">
+<img src="static/images/home/h2-img4.jpg" alt="">
+<a href="/gallery-full-width" class="img-link"></a>
+<div class="content-overlay">
+<h4 class="title"><a href="/gallery-full-width">Activities</a></h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="sc-quote style-02">
+<div class="sc-content-overlay">
+<div class="container">
+<div class="content">
+<h3 class="title"><span><b>Take advantage</b> of our <br>
+seasonal specials.</span></h3>
+<a href="#" class="btn-quote">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="sc-rooms style-02">
+<div class="container">
+<div class="sc-heading style-03">
+<p class="first-title">EXPLORE</p>
+<h3 class="second-title">OUR ROOMS</h3>
+<a href="/rooms" class="btn-right view-rooms">View Rooms</a>
+</div>
+<div class="rooms-content layout-grid style-02">
+<div class="row">
+<div class="room col-sm-4 clearfix">
+<div class="room-item">
+<div class="room-media">
+<a href="/room-single"><img src="static/images/gallery/img-4.jpg" alt=""></a>
+</div>
+<div class="room-summary">
+<h3 class="room-title">
+<a href="/room-single">Classic Room</a>
+</h3>
+<ul class="room-info">
+<li>18 m2</li>
+<li><span class="separator"></span></li>
+<li>Balcony</li>
+<li><span class="separator"></span></li>
+<li>Lake view</li>
+</ul>
+<div class="line"></div>
+<div class="room-meta clearfix">
+<div class="price">
+<span class="title-price">From:</span>
+<span class="price_value price_min">$100.0</span>
+<span class="unit">Night</span>
+</div>
+<div class="rating"><span class="star"></span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="room col-sm-4 clearfix">
+<div class="room-item">
+<div class="room-media">
+<a href="/room-single"><img src="static/images/gallery/img-11.jpg" alt=""></a>
+</div>
+<div class="room-summary">
+<h3 class="room-title">
+<a href="/room-single">Budget Room</a>
+</h3>
+<ul class="room-info">
+<li>18 m2</li>
+<li><span class="separator"></span></li>
+<li>Balcony</li>
+<li><span class="separator"></span></li>
+<li>Lake view</li>
+</ul>
+<div class="line"></div>
+<div class="room-meta clearfix">
+<div class="price">
+<span class="title-price">From:</span>
+<span class="price_value price_min">$100.0</span>
+<span class="unit">Night</span>
+</div>
+<div class="rating"><span class="star"></span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="room col-sm-4 clearfix">
+<div class="room-item">
+<div class="room-media">
+<a href="/room-single"><img src="static/images/gallery/img-6.jpg" alt=""></a>
+</div>
+<div class="room-summary">
+<h3 class="room-title">
+<a href="/room-single">Premium Room</a>
+</h3>
+<ul class="room-info">
+<li>18 m2</li>
+<li><span class="separator"></span></li>
+<li>Balcony</li>
+<li><span class="separator"></span></li>
+<li>Lake view</li>
+</ul>
+<div class="line"></div>
+<div class="room-meta clearfix">
+<div class="price">
+<span class="title-price">From:</span>
+<span class="price_value price_min">$100.0</span>
+<span class="unit">Night</span>
+</div>
+<div class="rating"><span class="star"></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="h2-testimonials">
+<div class="sc-content-overlay">
+<div class="container">
+<div class="sc-testimonials style-02 pull-right">
+<div class="sc-heading">
+<p class="first-title">PEOPLE REVIEWS</p>
+</div>
+<div class="testimonial-slider2 owl-carousel owl-theme">
+ <div class="item">
+<div class="content">
+" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Nul id dolor id nibh ultricies vehicula ut id elit. "
+</div>
+<p class="review"><span class="rating-star"></span></p>
+<p class="name">Bobby</p>
+</div>
+<div class="item">
+<div class="content">
+" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Nul id dolor id nibh ultricies vehicula ut id elit. "
+</div>
+<p class="review"><span class="rating-star"></span></p>
+<p class="name">Neman</p>
+</div>
+<div class="item">
+<div class="content">
+" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Nul id dolor id nibh ultricies vehicula ut id elit. "
+</div>
+<p class="review"><span class="rating-star"></span></p>
+<p class="name">Stephens</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="container blog-event">
+<div class="row">
+<div class="col-sm-6 col-md-8 item-first">
+<div class="sc-heading style-03">
+<p class="first-title">FROM</p>
+<h3 class="second-title">OUR BLOG</h3>
+</div>
+<div class="sc-post style-02">
+<div class="row">
+<div class="post col-sm-6">
+<div class="post-content">
+<div class="post-media">
+<a href="/blog-single"><img src="static/images/gallery/img-3.jpg" alt=""></a>
+</div>
+<div class="post-summary">
+<div class="meta"><span class="date">July 15, 2018</span></div>
+<h4 class="title"><a href="/blog-single">10 Things You Should Know</a></h4>
+<div class="readmore">
+<a href="/blog-single" class="btn-icon">Read More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="post col-sm-6">
+<div class="post-content">
+<div class="post-media">
+<a href="/blog-single"><img src="static/images/gallery/img-5.jpg" alt=""></a>
+</div>
+<div class="post-summary">
+<div class="meta"><span class="date">July 18, 2018</span></div>
+<h4 class="title"><a href="/blog-single">Live your myth in VietNam</a></h4>
+<div class="readmore">
+ <a href="/blog-single" class="btn-icon">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 item-second">
+<div class="sc-heading style-03">
+<p class="first-title">NEXT</p>
+<h3 class="second-title">EVENTS</h3>
+</div>
+<div class="sc-list-event style-01">
+<div class="list">
+<div class="event clearfix">
+<div class="time-from">
+<div class="date">15</div>
+<div class="month">Jul</div>
+</div>
+<div class="content">
+<h4 class="title"><a href="/event-single">Hotel Film Festival</a></h4>
+</div>
+</div>
+<div class="event clearfix">
+<div class="time-from">
+<div class="date">15</div>
+<div class="month">SEP</div>
+</div>
+<div class="content">
+<h4 class="title"><a href="/event-single">Flash Chorus On The Roof</a></h4>
+</div>
+</div>
+<div class="event clearfix">
+<div class="time-from">
+<div class="date">20</div>
+<div class="month">SEP</div>
+</div>
+<div class="content">
+<h4 class="title"><a href="/event-single">Alan Walker in Hotel</a></h4>
+</div>
+</div>
+</div>
+<a href="/events" class="btn-icon"> Read More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="empty-space"></div>
+<div class="container">
+<div class="sc-heading style-03">
+<p class="first-title">INSTAGRAM</p>
+</div>
+</div>
+<div class="sc-instagram">
+<div class="container-fluid">
+<div class="row">
+<div class="item">
+<a href="https://www.instagram.com/p/Bc_4LVwF6U_/" target="_blank"><img src="static/images/home/h2-instagram1.jpg" alt=""></a>
+</div>
+<div class="item">
+<a href="https://www.instagram.com/p/Bc_39pRl1rr/" target="_blank"><img src="static/images/home/h2-instagram2.jpg" alt=""></a>
+</div>
+<div class="item">
+<a href="https://www.instagram.com/p/Bc_3zm-FaaN/" target="_blank"><img src="static/images/home/h2-instagram3.jpg" alt=""></a>
+</div>
+<div class="item">
+<a href="https://www.instagram.com/p/Bc_3RLwFwgb/" target="_blank"><img src="static/images/home/h2-instagram4.jpg" alt=""></a>
+</div>
+<div class="item">
+<a href="https://www.instagram.com/p/BcQ-o3xlIX9/" target="_blank"><img src="static/images/home/h2-instagram5.jpg" alt=""></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--<footer id="colophon" class="site-footer footer_v2">-->
+ {% include 'footer.html' %}
+<!--<div class="footer">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-sm-4">-->
+<!--<div class="widget-text">-->
+<!--<img src="static/images/logo2-footer.png" alt="">-->
+<!--<p class="info-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--<ul class="social-link square">-->
+<!--<li><a class="facebook" href="https://www.facebook.com/thimpress/"><i class="fa fa-facebook"></i></a></li>-->
+<!--<li><a class="twitter" href="https://www.twitter.com/thimpress/"><i class="fa fa-twitter"></i></a></li>-->
+<!--<li><a class="instagram" href="http://www.thimpress.com/"><i class="fa fa-instagram"></i></a></li>-->
+<!--<li><a class="pinterest" href="http://www.thimpress.com/"><i class="fa fa-pinterest"></i></a></li>-->
+<!--<li><a class="tripadvisor" href="http://www.thimpress.com/"><i class="fa fa-tripadvisor"></i></a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-2">-->
+<!--<div class="widget-menu">-->
+<!--<h3 class="widget-title">COMPANY</h3>-->
+<!--<ul class="menu">-->
+<!--<li><a href="#">Home</a></li>-->
+<!--<li><a href="#">About Us</a></li>-->
+<!--<li><a href="#">Blog</a></li>-->
+<!--<li><a href="#">Contact</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-2">-->
+<!--<div class="widget-menu">-->
+<!--<h3 class="widget-title">SERVICES</h3>-->
+<!--<ul class="menu">-->
+<!--<li><a href="#">Rooms</a></li>-->
+<!--<li><a href="#">Food & Drinks</a></li>-->
+<!--<li><a href="#">Beach Venues</a></li>-->
+<!--<li><a href="#">Amenities</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-4">-->
+<!--<div class="widget-menu">-->
+<!--<h3 class="widget-title">CONTACT US</h3>-->
+<!--<div class="footer-location">-->
+<!--<ul class="info">-->
+<!--<li class="clearfix"><i class="fa fa-phone"></i><a href="tel:8812345678">(+88) 12-345-678</a></li>-->
+<!--<li class="clearfix"><i class="fa fa-envelope"></i><a href="https://html.thimpress.com/cdn-cgi/l/email-protection#83e0ecedf7e2e0f7c3f7ebeaeef3f1e6f0f0ade0ecee"><span class="__cf_email__" data-cfemail="94f7fbfae0f5f7e0d4e0fcfdf9e4e6f1e7e7baf7fbf9">[email&#160;protected]</span></a></li>-->
+<!--<li class="address clearfix"><i class="fa fa-map-marker"></i> <a href="/contact">123 Camino Ramon, Suite 500 San Ramon, United Kingdom</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="copyright">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="copyright-content">-->
+<!--<div class="copyright-text col-sm-6">-->
+<!--<p>© 2018 <a href="https://thimpress.com/">ThimPress</a>. All rights reserved.</p>-->
+<!--</div>-->
+<!--<div class="copyright-menu col-sm-6">-->
+<!--<ul class="menu">-->
+<!--<li><a href="#">Tripadvisor</a></li>-->
+<!-- <li><a href="#">Booking</a></li>-->
+<!--<li><a href="#">Terms & Conditions</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</footer>-->
+</div>
+<div id="back-to-top">
+<i class="ion-ios-arrow-up" aria-hidden="true"></i>
+</div>
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="static/js/libs/jquery-1.12.4.min.js"></script>
+<script src="static/js/libs/bootstrap.min.js"></script>
+<script src="static/js/libs/smoothscroll.min.js"></script>
+<script src="static/js/libs/owl.carousel.min.js"></script>
+<script src="static/js/libs/jquery.magnific-popup.min.js"></script>
+<script src="static/js/libs/theia-sticky-sidebar.min.js"></script>
+<script src="static/js/libs/stellar.min.js"></script>
+<script src="static/js/libs/counter-box.min.js"></script>
+<script src="static/js/libs/jquery.thim-content-slider.min.js"></script>
+<script src="static/js/libs/moment.min.js"></script>
+<script src="static/js/libs/jquery-ui.min.js"></script>
+<script src="static/js/libs/daterangepicker.min.js"></script>
+<script src="static/js/libs/daterangepicker.min-date.min.js"></script>
+<script src="static/js/theme-customs.js"></script>
+
+<script src="static/js/libs/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="static/js/libs/revolution/jquery.themepunch.revolution.min.js"></script>
+
+<script src="static/js/libs/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.migration.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="static/js/libs/revolution/extensions/revolution.extension.video.min.js"></script>
+<script>
+    /* Start OF WRAPPING FUNCTION */
+    function setREVStartSize(e) {
+    try {
+        e.c = jQuery(e.c);
+        var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+        if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
+            f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+        }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+            var u = (e.c.width(), jQuery(window).height());
+            if (void 0 != e.fullScreenOffsetContainer) {
+                var c = e.fullScreenOffsetContainer.split(",");
+                if (c) jQuery.each(c, function (e, i) {
+                    u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+            }
+            f = u
+        } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+        e.c.closest(".rev_slider_wrapper").css({height: f})
+    } catch (d) {
+        console.log("Failure at Presize of Slider:" + d)
+    }
+};
+
+    var revapi2,
+        tpj;
+    (function () {
+        if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad); else onLoad();
+
+        function onLoad() {
+            if (tpj === undefined) {
+                tpj = jQuery;
+                if ("off" == "on") tpj.noConflict();
+            }
+            if (tpj("#rev_slider_2_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_2_1");
+            } else {
+                revapi2 = tpj("#rev_slider_2_1").show().revolution({
+                    sliderType: "standard",
+                    sliderLayout: "fullscreen",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        mouseScrollReverse: "default",
+                        onHoverStop: "off",
+                        arrows: {
+                            style: "zeus",
+                            enable: true,
+                            hide_onmobile: false,
+                            hide_onleave: false,
+                            tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 30,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 20,
+                                v_offset: 0
+                            }
+                        }
+                        ,
+                        bullets: {
+                            enable: true,
+                            hide_onmobile: false,
+                            style: "hermes",
+                            hide_onleave: false,
+                            direction: "horizontal",
+                            h_align: "center",
+                            v_align: "bottom",
+                            h_offset: 0,
+                            v_offset: 60,
+                            space: 25,
+                            tmp: ''
+                        }
+                    },
+                    viewPort: {
+                        enable: true,
+                        outof: "wait",
+                        visible_area: "80%",
+                        presize: false
+                    },
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1240, 1024, 778, 480],
+                    gridheight: [600, 600, 500, 400],
+                    lazyType: "none",
+                    shadow: 0,
+                    spinner: "off",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    fullScreenAutoWidth: "on",
+                    fullScreenAlignForce: "off",
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+            ;
+            /* END OF revapi call */
+
+        };
+        /* END OF ON LOAD FUNCTION */
+    }());
+    /* End OF WRAPPING FUNCTION */
+
+    var d = new Date();
+    document.getElementById("day").setAttribute('value',d.getDate());
+    document.getElementById("month").setAttribute('value',format_month());
+    document.getElementById("multidate2").setAttribute('value',format_full());
+
+    document.getElementById("day2").setAttribute('value',d.getDate()+1);
+    document.getElementById("month2").setAttribute('value',format_month());
+
+    function format_full() {
+        var months = ['January','February','March','April','May','June','July','August','September','September','November','December'];
+        return months[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear();
+    }
+    function format_month() {
+        var months = ['Jan', 'Feb', 'March', 'April', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        return months[d.getMonth()];
+    }
+
+</script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'799ea6f2aa75032f',m:'7lZsh8KTMhGm.mYHv.eQRPxLvLj1toj4Pg_Tp35hHj0-1676470490-0-ASws3TKEE7EqxTphpY37bjvBVfVPvtRyKcbqprH2pW9XIdOkI3ixK17/UKA6S7JlisehSX1U4S3td/PEk0gWc0OhghSbzkTRzSoPs3W2RHdS4ka93FhSv+24hN9XEHSPWkrOA0qBoeK9M6j+SpZK49I=',s:[0x95167b155c,0x46cd51d200],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from html.thimpress.com/hotelwp/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:09:26 GMT -->
+</html>

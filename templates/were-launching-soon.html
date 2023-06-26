@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.thimpress.com/hotelwp/were-launching-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:10:33 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HOTEL HTML TEMPLATE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="static/images/icons/favicon.png">
+
+<link rel="stylesheet" href="static/css/style.css">
+<style type="text/css">
+	.counter.days .show.n1.hundreds,
+	.comingsoon-wrapper .thim-countdown .counter-group .counter-block .counter.days .hidden-up.n2.hundreds{
+    display: none !important;
+}
+	</style>
+</head>
+<body class="page coming-soon">
+<div class="comingsoon-wrapper">
+<div class="background ">
+<ul class="slides owl-carousel owl-theme">
+<li><img src="static/images/slides/h1-slider1.jpg" alt=""></li>
+<li><img src="static/images/slides/h1-slider2.jpg" alt=""></li>
+<li><img src="static/images/slides/h1-slider3.jpg" alt=""></li>
+</ul>
+</div>
+<div class="coom-inner">
+<a href="/" class="logo"><img src="static/images/logo1.png" alt=""></a>
+<h1 class="title">WE’RE LAUNCHING SOON</h1>
+<div class="thim-countdown" data-date="December 30, 2019 12:00:00">
+<div class="count-down"></div>
+</div>
+<div class="content-text">
+<p>Our website is under construction. We’ll be here soon with our new awesome site.
+<br> Get best experience with this one.</p>
+<form action="#" method="post">
+<input type="email" required placeholder="Enter you email">
+<button type="submit">Subscribe</button>
+</form>
+</div>
+</div>
+</div>
+<script src="static/js/libs/jquery.min.js"></script>
+<script src="static/js/libs/jquery.mb-comingsoon.min.js"></script>
+<script src="static/js/libs/owl.carousel.min.js"></script>
+<script>
+    $(".thim-countdown .count-down").mbComingsoon({
+        expiryDate: new Date($(".thim-countdown").data('date')),
+        speed     : 100
+    });
+    $('.comingsoon-wrapper .background .slides').owlCarousel({
+        loop :true,
+        items : 1,
+        nav: false,
+        dots: false,
+        animateOut: 'fadeOut',
+        autoplay:true,
+        autoplayTimeout:3000,
+    });
+</script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'799ea7231a22032a',m:'WySlJtrPGN8Vac2EKCsYbcFpzHkzf.4bII1KFwWqoek-1676470498-0-AaKT5cooYdvDoJ8cbCjd6iiP9q2Tl3ydHaq/cMuckWBsEMy9JX6YWE4fMWcpRSqEpqvbY742uoM0k0uC7TQhiYxKFXR8YbvSCUAtdL4hNtwEml7J7W1eJ9oiqyXkmfTj9dNlN830T5oUiCJVu6UjOt9m8CqTWdYb6HdtiQmypn5p',s:[0x610ddc2622,0x036797bf3b],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from html.thimpress.com/hotelwp/were-launching-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:10:33 GMT -->
+</html>

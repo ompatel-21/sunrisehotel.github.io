@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.thimpress.com/hotelwp/rooms.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:10:21 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>HOTEL HTML TEMPLATE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="static/images/icons/favicon.png">
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="room archive">
+<div id="preloading">
+    <div class="loading-icon">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+</div>
+
+<div id="wrapper-container" class="content-pusher">
+    <div class="overlay-close-menu"></div>
+
+    <!--<header id="masthead" class="header-default affix-top sticky-header ">-->
+    {% include 'header.html' %}
+    <!--<div class="row">-->
+    <!--<div class="header-menu col-sm-12 tm-table">-->
+    <!--<div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">-->
+    <!--<div class="icon-wrap">-->
+    <!--<span class="icon-bar"></span>-->
+    <!--<span class="icon-bar"></span>-->
+    <!--<span class="icon-bar"></span>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="width-logo sm-logo table-cell text-center">-->
+    <!--<a href="/index" class="no-sticky-logo" title="Hotel HTML Template">-->
+    <!--<img class="logo" src="static/images/logo1.png" alt="">-->
+    <!--<img class="mobile-logo" src="static/images/logo1-sticky.png" alt="">-->
+    <!--</a>-->
+    <!--<a href="/index" class="sticky-logo">-->
+    <!--<img src="static/images/logo1-sticky.png" alt="">-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--<div class="width-navigation navigation table-cell">-->
+    <!--<div class="top-toolbar clearfix">-->
+    <!--<div class="toolbar-info pull-left col-sm-4">-->
+    <!--<i class="ion-ios-telephone"></i> <span class="label">Need help? Call us now:</span>-->
+    <!--<a class="value" href="tel:+88123456789"> (+88) 12 345 6789</a>-->
+    <!--</div>-->
+    <!--<div class="toolbar-right pull-right col-sm-8">-->
+    <!--<div class="weather">-->
+    <!--Today: <img src="static/images/icons/weather.png" alt="">-->
+    <!--<span class="temperature">28°C</span>-->
+    <!--</div>-->
+    <!--<ul class="top-menu">-->
+    <!--<li class="menu-item"><a href="/shop">Our Story</a></li>-->
+    <!--<li class="menu-item"><a href="/blog">News & Awards</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery">Gallery</a></li>-->
+    <!--</ul>-->
+    <!--<div class="language">-->
+    <!--<div class="dropdown">-->
+    <!--<a href="#" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false">-->
+    <!--<i class="flag-el"></i>English<span class="fa fa-caret-down"></span>-->
+    <!--</a>-->
+    <!--<ul class="dropdown-language">-->
+    <!--<li><a href="#"><i class="flag-it"></i>Italiano</a></li>-->
+    <!--<li><a href="#"><i class="flag-de"></i>Deutsch</a></li>-->
+    <!--<li><a href="#"><i class="flag-fr"></i>Français</a></li>-->
+    <!--<li><a href="#"><i class="flag-es"></i>Español</a></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!-- </div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<ul class="nav main-menu">-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/index">Home</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/index">Home 01</a></li>-->
+    <!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+    <!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+    <!--<li class="menu-item"><a href="/index-4">Home 04</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/rooms">Rooms</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+    <!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+    <!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/blog">Blog</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/events">Events</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/events-2columns">Events Gird View</a></li>-->
+    <!--<li class="menu-item"><a href="/events">Events List view</a></li>-->
+    <!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+    <!--<li class="menu-item"><a href="/event-single-expired">Event Single Expired</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="#">Features</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+    <!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+    <!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+    <!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+    <!--</ul>-->
+    <!--<div class="header-right">-->
+    <!--<a href="/rooms" class="btn-book">BOOK YOUR STAY</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</header>-->
+
+    {% include 'mobile.html' %}
+    <!--<nav class="visible-xs mobile-menu-container mobile-effect" itemscope itemtype="http://schema.org/SiteNavigationElement">-->
+    <!--<div class="inner-off-canvas">-->
+    <!--<div class="menu-mobile-effect navbar-toggle">Close <i class="fa fa-times"></i></div>-->
+    <!--<ul class="nav main-menu">-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/index">Home</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/index">Home 01</a></li>-->
+    <!--<li class="menu-item"><a href="/index-2">Home 02</a></li>-->
+    <!--<li class="menu-item"><a href="/index-3">Home 03</a></li>-->
+    <!--<li class="menu-item"><a href="/index-4">Home 04</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/rooms">Rooms</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/rooms">Rooms Grid View 1</a></li>-->
+    <!--<li class="menu-item"><a href="/rooms-grid-2">Rooms Grid View 2</a></li>-->
+    <!--<li class="menu-item"><a href="/room-single">Room Detail</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/blog">Blog</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/blog-sidebar-left">Blog Sidebar Left</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-sidebar-right">Blog Sidebar Right</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-no-sidebar">Blog Without Sidebar</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-single">Single Post</a></li>-->
+    <!--<li class="menu-item"><a href="/blog-single-gallery">Single Post Gallery</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="/events">Events</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/events-2columns">Events Grid View</a></li>-->
+    <!--<li class="menu-item"><a href="/events">Events List View</a></li>-->
+    <!--<li class="menu-item"><a href="/event-single">Event Single</a></li>-->
+    <!--<li class="menu-item"><a href="/event-single-expired">Event Single Expired</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children">-->
+    <!--<a href="#">Features</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/about-us">About Us</a></li>-->
+    <!--<li class="menu-item"><a href="/shop">Shop</a></li>-->
+    <!--<li class="menu-item"><a target="_blank" href="/were-launching-soon">Coming Soon Page</a></li>-->
+    <!--<li class="menu-item"><a href="/404">404 Page</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item has-children"><a href="/gallery">Gallery</a>-->
+    <!--<ul class="sub-menu">-->
+    <!--<li class="menu-item"><a href="/gallery-2columns">Gallery 2 Columns</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery">Gallery 3 Columns</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery-full-width">Gallery Full Width</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery-without-filter">Gallery Without Filter</a></li>-->
+    <!--<li class="menu-item"><a href="/gallery-with-content">Gallery With Content</a></li>-->
+    <!--</ul>-->
+    <!--</li>-->
+    <!--<li class="menu-item"><a href="/contact">Contact</a></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</nav>-->
+
+    <div id="main-content">
+        <div class="page-title">
+            <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+                <div class="content container">
+                    <h1 class="heading_primary">Rooms</h1>
+                    <ul class="breadcrumbs">
+                        <li class="item"><a href="/index">Home</a></li>
+                        <li class="item"><span class="separator"></span></li>
+                        <li class="item active">Rooms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="site-content container">
+            <div class="rooms-content layout-grid style-01">
+                <div class="row">
+                    <div class="room col-sm-4 clearfix">
+                        <div class="room-item">
+                            <div class="room-media">
+                                <a href="/room-single"><img src="static/images/gallery/img-4.jpg" alt=""></a>
+                            </div>
+                            <div class="room-summary">
+                                <h3 class="room-title">
+                                    <a href="/room-single">Classic Room</a>
+                                </h3>
+                                <div class="room-price">From: <span class="price">$100.0</span></div>
+                                <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                                    diam nonummy wisi enim ad minim vel eum iriure</p>
+                                <div class="room-meta clearfix">
+                                    <div class="comment-count">1 Reviews</div>
+                                    <div class="rating"><span class="star"></span>(5/5)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room col-sm-4 clearfix">
+                        <div class="room-item">
+                            <div class="room-media">
+                                <a href="/room-single"><img src="static/images/gallery/img-11.jpg" alt=""></a>
+                            </div>
+                            <div class="room-summary">
+                                <h3 class="room-title">
+                                    <a href="/room-single">Budget Room</a>
+                                </h3>
+                                <div class="room-price">From: <span class="price">$200.0</span></div>
+                                <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                                    diam nonummy wisi enim ad minim vel eum iriure</p>
+                                <div class="room-meta clearfix">
+                                    <div class="comment-count">1 Reviews</div>
+                                    <div class="rating"><span class="star"></span>(5/5)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room col-sm-4 clearfix">
+                        <div class="room-item">
+                            <div class="room-media">
+                                <a href="/room-single"><img src="static/images/gallery/img-6.jpg" alt=""></a>
+                            </div>
+                            <div class="room-summary">
+                                <h3 class="room-title">
+                                    <a href="/room-single">Premium Room</a>
+                                </h3>
+                                <div class="room-price">From: <span class="price">$300.0</span></div>
+                                <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                                    diam nonummy wisi enim ad minim vel eum iriure</p>
+                                <div class="room-meta clearfix">
+                                    <div class="comment-count">1 Reviews</div>
+                                    <div class="rating"><span class="star"></span>(5/5)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room col-sm-4 clearfix">
+                        <div class="room-item">
+                            <div class="room-media">
+                                <a href="/room-single"><img src="static/images/gallery/img-10.jpg" alt=""></a>
+                            </div>
+                            <div class="room-summary">
+                                <h3 class="room-title">
+                                    <a href="/room-single">Flex Room</a>
+                                </h3>
+                                <div class="room-price">From: <span class="price">$100.0</span></div>
+                                <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                                    diam nonummy wisi enim ad minim vel eum iriure</p>
+                                <div class="room-meta clearfix">
+                                    <div class="comment-count">1 Reviews</div>
+                                    <div class="rating"><span class="star"></span>(5/5)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room col-sm-4 clearfix">
+                        <div class="room-item">
+                            <div class="room-media">
+                                <a href="/room-single"><img src="static/images/gallery/img-9.jpg" alt=""></a>
+                            </div>
+                            <div class="room-summary">
+                                <h3 class="room-title">
+                                    <a href="/room-single">Double Room</a>
+                                </h3>
+                                <div class="room-price">From: <span class="price">$100.0</span></div>
+                                <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                                    diam nonummy wisi enim ad minim vel eum iriure</p>
+                                <div class="room-meta clearfix">
+                                    <div class="comment-count">1 Reviews</div>
+                                    <div class="rating"><span class="star"></span>(5/5)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room col-sm-4 clearfix">
+                        <div class="room-item">
+                            <div class="room-media">
+                                <a href="/room-single"><img src="static/images/gallery/img-8.jpg" alt=""></a>
+                            </div>
+                            <div class="room-summary">
+                                <h3 class="room-title">
+                                    <a href="/room-single">Luxury Room</a>
+                                </h3>
+                                <div class="room-price">From: <span class="price">$150.0</span></div>
+                                <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                                    diam nonummy wisi enim ad minim vel eum iriure</p>
+                                <div class="room-meta clearfix">
+                                    <div class="comment-count">1 Reviews</div>
+                                    <div class="rating"><span class="star"></span>(5/5)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="loop-pagination">
+                        <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<footer id="colophon" class="site-footer">-->
+    {% include 'footer.html' %}
+    <!--<div class="footer-top">-->
+    <!--<div class="container">-->
+    <!--<div class="newsletter">-->
+    <!--<h3>Newsletter</h3>-->
+    <!--<form method="post" class="form-newsletter">-->
+    <!--<input type="email" name="EMAIL" placeholder="Enter your Email" required>-->
+    <!--<button type="submit">SUBSCRIBE</button>-->
+    <!--</form>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="footer">-->
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <!--<div class="col-sm-6">-->
+    <!--<div class="widget-text">-->
+    <!--<div class="footer-location">-->
+    <!--<img src="static/images/logo1-footer.png" alt="">-->
+    <!--<p>You have questions regarding our services? Contact us, we will be happy to help you out!</p>-->
+    <!--<ul class="info">-->
+    <!--<li><i class="ion-ios-location"></i> <a href="contact.html#sc-google-map">329 Queensberry Street, North Melbourne VIC 3051, Australia.</a></li>-->
+    <!--<li><i class="ion-ios-telephone"></i><a href="tel:8812345678">(+88) 12-345-678</a></li>-->
+    <!--<li><i class="ion-email"></i><a href="https://html.thimpress.com/cdn-cgi/l/email-protection#53303c3d2732302713273b3a3e23213620207d303c3e"><span class="__cf_email__" data-cfemail="593a36372d383a2d192d313034292b3c2a2a773a3634">[email&#160;protected]</span></a></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-2">-->
+    <!--<div class="widget-menu">-->
+    <!--<h3 class="widget-title">Booking</h3>-->
+    <!--<ul class="menu">-->
+    <!--<li><a href="#">Rooms & Suites</a></li>-->
+    <!--<li><a href="#">Restaurant</a></li>-->
+    <!--<li><a href="#">Spa & Fitness</a></li>-->
+    <!--<li><a href="#">Shop</a></li>-->
+    <!--<li><a href="#">Gallery</a></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-2">-->
+    <!--<div class="widget-menu">-->
+    <!--<h3 class="widget-title">About Us</h3>-->
+    <!--<ul class="menu">-->
+    <!--<li><a href="#">Our Story</a></li>-->
+    <!--<li><a href="#">Blog & Events</a></li>-->
+    <!--<li><a href="#">Awards</a></li>-->
+    <!--<li><a href="#">About Us</a></li>-->
+    <!--<li><a href="#">Contact Us</a></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-2">-->
+    <!--<div class="widget-menu">-->
+    <!--<h3 class="widget-title">Connect Us</h3>-->
+    <!--<ul class="list-social">-->
+    <!--<li><a class="facebook" href="https://www.facebook.com/thimpress">Facebook</a></li>-->
+    <!-- <li><a class="twitter" href="https://www.twitter.com/thimpress">Twitter</a></li>-->
+    <!--<li><a class="instagram" href="http://www.thimpress.com/">Instagram</a></li>-->
+    <!--<li><a class="youtube" href="http://www.thimpress.com/">Youtube</a></li>-->
+    <!--<li><a class="google" href="http://www.thimpress.com/">Google +</a></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="copyright">-->
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <!--<div class="copyright-content col-sm-12">-->
+    <!--<p class="copyright-text">© 2018 <a href="#">Sunrise Hotel</a> by <a href="https://thimpress.com/">ThimPress</a>. All Rights Reserved.</p>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</footer>-->
+</div>
+<div id="back-to-top">
+    <i class="ion-ios-arrow-up" aria-hidden="true"></i>
+</div>
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="static/js/libs/jquery.min.js"></script>
+<script src="static/js/libs/stellar.min.js"></script>
+<script src="static/js/libs/jquery-ui.min.js"></script>
+<script src="static/js/libs/daterangepicker.min.js"></script>
+<script src="static/js/libs/daterangepicker.min-date.min.js"></script>
+<script src="static/js/libs/bootstrap.min.js"></script>
+<script src="static/js/libs/smoothscroll.min.js"></script>
+<script src="static/js/libs/owl.carousel.min.js"></script>
+<script src="static/js/libs/jquery.magnific-popup.min.js"></script>
+<script src="static/js/libs/theia-sticky-sidebar.min.js"></script>
+<script src="static/js/libs/counter-box.min.js"></script>
+<script src="static/js/libs/jquery.thim-content-slider.min.js"></script>
+<script src="static/js/theme-customs.js"></script>
+<script>
+    (function(){var js = "window['__CF$cv$params']={r:'799ea6fcadc3032f',m:'LLDqxKipKv4j_e9Bujq5DGdai4y0rMcruK0gzmCrUE4-1676470491-0-ASu2BrItY16AkPGSZAkJ4UUED8c4A5UNplck5o9L2upQdK5qwcd5mm912lA6WhGxuQCx/jjeV3K6VFe0vxNfnP/ZCZItMUyem3C2MjAZ6Q9NZ4ODwsONbndJFF7g6dkEBWItDcwqoBM5vSJIjfZJxXs=',s:[0xf3aae695ce,0xfae449c46d],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();
+</script>
+</body>
+
+<!-- Mirrored from html.thimpress.com/hotelwp/rooms.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Feb 2023 14:10:21 GMT -->
+</html>
